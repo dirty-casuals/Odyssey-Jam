@@ -23,24 +23,24 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#990000'
+define gui.accent_color = '#ad5832'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#aaaaaa'
+define gui.idle_color = '#e3be75'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = '#888888'
+define gui.idle_small_color = '#c4a370'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#990000'
+define gui.hover_color = '#ad5832'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = '#555555'
+define gui.selected_color = '#8b6a3c'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = '#aaaaaa7f'
+define gui.insensitive_color = '#e3be757f'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
@@ -55,13 +55,13 @@ define gui.interface_text_color = '#404040'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/DIOGENES.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/DIOGENES.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/DIOGENES.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 33
