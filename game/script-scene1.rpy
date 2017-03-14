@@ -19,7 +19,7 @@ label scene1:
     l "What happened next?"
     
     menu:
-        "When the tides calmed, we set for an island":
+        "When the waves calmed, we set for an island":
             os "Once the waves had calmed we set a course for the nearest island."
             if off_course_by == "winds":
                 l "I thought you said it was the winds that took you off course?"

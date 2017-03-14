@@ -1,4 +1,6 @@
 label intro:
+    $ a_listener = Listener() 
+    
     scene bg bar
     show listener at right
 
@@ -20,7 +22,8 @@ label intro:
     
     menu:
         "Those happened after the war!":
-            os "Heroic tales? Those, young man, happened after we left Troy!"
+            $ test = a_listener.desc
+            os "Heroic tales? Those, [test], happened after we left Troy!"
         "There are no heroes in war.":
             os "There are no heroes in war. If you want to hear a story,{p}you should hear of the journey home from Troy."
         "The war was just the start.":

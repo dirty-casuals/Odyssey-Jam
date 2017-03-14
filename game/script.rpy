@@ -10,5 +10,6 @@ define l = Character("Listener")
 # The game starts here.
 
 label start:
+    #jump find_listener
     jump intro            
     return
