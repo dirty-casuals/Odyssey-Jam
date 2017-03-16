@@ -1,12 +1,28 @@
 init python:    
-    class Listener:
+    ListenerDescs = {
+        'listener1' : ['lady', 'young woman'],
+        'listener2' : [ 'kid', 'child', 'boy', ],
+        'listener3' : [ 'cloaked figure', 'mysterious pal' ],
+        'listener4' : [ 'young man', 'dude', 'soldier' ],
+    }
+    
+    class Listener:                
         def __init__(self):
             self.amusement = renpy.random.random()*0.25 + 0.5
             self.gullibility = renpy.random.random()
             self.perception = renpy.random.random()
             self.thirst = renpy.random.random()*0.2 + 0.1
             self.drink = 1
-            self.desc = renpy.random.choice(['kid', 'child', 'lady', 'young woman'])
+            self.graphic = renpy.random.choice(['listener1','listener2','listener3','listener4']);
+            renpy.copy_images( self.graphic, "listener" );
+            
+            global l
+            l = Character(self.desc.title())
+            
+        @property
+        def desc(self):            
+            return renpy.random.choice( ListenerDescs[self.graphic] )
+            
         
 
 label find_listener:
@@ -33,5 +49,5 @@ label .display:
     jump .display
                 
 label .found_listener:
-    $ listener = Listener()
+    $ a_listener = Listener()
     "Seems like a [listener.desc] got attracted by my [display]."

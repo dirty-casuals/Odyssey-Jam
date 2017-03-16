@@ -29,5 +29,3 @@ label scene1:
             if off_course_by == "tides":
                 l "I thought you said it was the tides that threw you off course?"
                 os "What? Oh, yes of course..."
-
-    l "After we set sail once more we came across an island. The island of Ismaros..."

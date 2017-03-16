@@ -7,4 +7,6 @@ label scene2:
         alignaround (.5, .5)
         repeat
         
-    l "Woah friend, that is a serious looking scar you have there.{p}How did you get it?"
+    os "After we set sail once more we came across an island. The island of Ismaros..."
+    
+    
