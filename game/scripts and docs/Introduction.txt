@@ -1,0 +1,32 @@
+Introduction:
+
+Intro01: 
+L: Woah friend, that is a serious looking scar you have there. How did you get it?
+
+Intro01 A:
+OS: I got it during the Trojan War.
+
+Intro01 B:
+OS: A Trojan gave it to me, I gave him something in return.
+
+Intro01 C:
+OS: I cut myself shaving when I was in Troy.
+
+Intro02:
+L: You were in the Trojan War? Who did you serve?
+
+Intro02 A:
+OS: I served under Odysseus of Ithaca. 
+
+Intro03:
+L: Odysseus of Ithaca?! He's a legend! I'm sure you must have heroic tales from the war?
+
+Intro03 A:
+OS: Heroic tales? Those happened after we left Troy!
+
+Intro03 B:
+OS: There are no heroes in war. If you want to hear a story, you should hear of the journey home from Troy.
+
+Intro03 C:
+OS: The Trojan War was just the start of Odysseus' troubles, that's where the real story lies!
+

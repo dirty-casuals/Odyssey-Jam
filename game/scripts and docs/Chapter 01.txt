@@ -1,0 +1,42 @@
+Chapter 01:
+
+01:
+L: What happened old timer?
+
+Here, let me re-fill your cup.
+
+01 A: 
+OS: The twelve ships of Odysseus left Troy while the ashes of the city still fell. Odysseus wanted to waste no time in getting home to his beloved family and homeland of Ithaca.
+
+02:
+L: You were heading for Ithaca?
+
+02 A:
+OS: Aye, but the winds took hold of the ships, sent us far off course.
+
+02 B:
+OS: That was the plan, but Poseidon had another idea. The tides were against us and we were driven off course.
+
+03 1:
+L: What happened next?
+
+03 2:
+L: What happened next?
+
+03 1A:
+OS: Once the tides had calmed we set a course for the nearest island.
+
+03 2A:
+OS: Once the winds had subsided we laid a course for the nearest port.
+
+04 1:
+L: I thought you said it was the winds that took you off course? 
+
+04 2:
+L: I thought you said it was the tides that threw you off course?
+
+04 A:
+OS: What? Oh, yes of course...
+
+04 AA:
+OS: After we set sail once more we came across an island. The island of Ismaros...

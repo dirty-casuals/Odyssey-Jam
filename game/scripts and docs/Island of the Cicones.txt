@@ -1,0 +1,129 @@
+Island of the Cicones:
+
+01:
+L: Ismaros Island? 
+
+01 A:
+OS: Aye, it's the island of the Cicones.
+
+01 B:
+OS: Yes. We did not know at the time, but it was home to the Cicones, an enemy of Greece.
+
+02:
+L: The Cicones?
+
+02 A:
+OS: Aye, we fought against them during the battle of Troy. Fierce warriors, but not as skilled in the art of war.
+
+03:
+L: What happened?
+
+03 A:
+OS: They weren't expecting us, so we made light work of the city. We plundered, and took anything we wanted.
+
+03 B:
+OS: We attacked the city, killed all the men we could find. 
+
+04 1:
+L: What about the people?
+
+04 2:
+L: What about the women and children?
+
+04 1A:
+OS: The men were killed where they stood, and the women were taken as slaves.
+
+04 2A:
+OS: The men took them as slaves, as well as anything else of worth.
+
+05:
+L: What about you? Did you take any slaves?
+
+05 A:
+OS: Me? No, I take orders, not give them [laughs]
+
+05 B:
+OS: I did. I felt if I didn't then someone else would, and who knows what they would have done to them. I have enough regrets.
+
+05 C:
+OS: Yes. The spoils of war, as they say.
+
+06:
+L: And Odysseus?
+
+06 A:
+OS: He was no better than the others, he took his fair share. He wanted us to leave once we had done so. We should have listened...
+
+07:
+L: Why? Did something happen?
+
+07 A:
+OS: One of the men must have survived, or one of the slaves escaped. They went inland, gathered an army to chase us away.
+
+07 B:
+OS: We all drank and made merry, until we fell asleep. I was awoken by the horns of war, Cicone reinforcements were on their way!
+
+08:
+L: What did you do?
+
+08 A:
+OS: I freed the slaves I had been given, told them to head for safety. I then gathered my arms and joined my comrades and prepared to defend ourselves. 
+
+08 B:
+OS: I quickly prepared as well as I could and joined my brothers in arms ready to await Odysseus' command.
+
+08 C:
+OS: I gathered my things and made for the ships. There were too many for us to fight, and they had chariots and archers.
+
+09 1:
+L: I thought you had no slaves?
+
+09 2:
+L: What was the order?
+
+09 3:
+L: You ran away?
+
+09 1A:
+OS: Oh yes... Just a slip of the tongue. I meant to say I freed as many as I could see.
+
+09 2A:
+OS: Defend the ships until we could retreat. 
+
+09 3A:
+OS: It was more of a tactical retreat...
+
+09 1AA:
+OS: Odysseus ordered us to defend the ships until we could leave. We were heavily out numbered, they had archers and chariots, it felt like eons passed in those moments.
+
+10 1:
+L: Did you succeed?
+
+10 2:
+L: What about the others?
+
+10 1A:
+OS: Well I'm sitting here now aren't I? 
+
+Others weren't as fortunate. They charged with the chariots. 
+
+10 2A:
+OS: Odysseus ordered them to defend the ships while we prepared them to sail. 
+
+10 1AA:
+OS: The man next to me was impaled on a scythed wheel as it flew from a destroyed chariot. His body cushioned the blade enough that it didn't stick me too!
+
+10 2AA:
+OS: It was chaos, from where I stood you could see bronze and steel meet flesh. Hear the clangs and screams... 
+
+11 1:
+L: How did you escape?
+
+11 2:
+L: Did the ships escape?
+
+11 1A:
+OS: Odysseus himself pulled me to my feet and got me to the ship. We managed to get all twelve ships back out to sea, despite the losses.
+
+11 2A:
+OS: Aye, we managed to get all twelve ships out to sea. We lost many men though, if only we had been faster, they wouldn't have had to hold the line for so long.

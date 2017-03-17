@@ -1,0 +1,151 @@
+Land of the Lotus-Eaters
+
+01:
+L: Where did you go once you left Ismaros Island?
+
+01 A:
+OS: We drifted at sea for nine days, we treated the wounded, fixed any damage to the ships. Then we saw land, and headed towards it.
+
+02:
+L: Where were you?
+
+02 A:
+OS: The navigator said it was called Djerba Island. It looked uninhabited, but we were taking no chances.
+
+02 B:
+OS: A tiny island known as Djerba. From the coast it looked like it belonged to the birds.
+
+03 1:
+L: How so?
+
+03 2:
+L: And did it?
+
+03 1A:
+OS: Odysseus ordered us to anchor the ships off shore, and he sent a group of five men to scout the island.
+
+03 2A:
+OS: We anchored off the coast, Odysseus didn't want a repeat of our last time on land. He sent five men ashore to the island to see if it was safe to make port.
+
+04:
+L: What did they find?
+
+04 A:
+OS: They didn't return.
+
+We waited for three days...
+
+04 AA:
+OS: Nothing. The scouts didn't return, and no one came looking for us. It was a mystery.
+
+05:
+L: Did anyone go looking for the scouts?
+
+05 A:
+OS: Aye, three of us were chosen to find them. Adrastus, his brother Diodoros and myself. 
+
+06:
+L: Why were you chosen?
+
+06 A:
+OS: Back in those days I knew how to swing a sword if I had to.
+
+06 B:
+OS: You might not think it to look at me, but I can track any beast or man. Learnt from hunting with my father.
+
+06 C:
+OS: No idea. 
+
+Perhaps Odysseus thought it wise to send at least one person with half a brain?
+
+07:
+L: What did you find?
+
+07 A:
+OS: We found a village, well it was barely that. More a collection of huts.
+
+07 B:
+OS: We found signs of life, a primitive settlement. We feared the worst.
+
+08 1:
+L: What happened next?
+
+08 2:
+L: Why? What did you think had happened?
+
+08 1A:
+OS: We explored the perimeter of the village, to make sure it wasn't a trap. Then we quietly approached the nearest hut.
+
+08 2A:
+OS: We thought they had been discovered by barbarians, or worse. A barbarian will skin you alive from your feet first, and that's if they like you!
+
+09 1:
+L: What was inside?
+
+09 2:
+L: What did you do?
+
+09 1A:
+OS: A man, he appeared to be sleeping, but he wasn't, he was looking directly at us.
+
+09 2A:
+OS: We circled the camp, tried to see if we could spot our men, or the barbarians.
+
+10 1:
+L: What did he do?
+
+10 2:
+L: Did you?
+
+10 1A:
+OS: He smiled. 
+
+He stumbled to his feet and slowly walked over to us. We acted casually while tightening our hold on our swords, ready for the worst.
+
+10 2A:
+OS: Not at first, but when we started to move towards the centre of the village we saw them.
+
+11:
+L: Did you kill him?
+
+11 A:
+OS: No, far from it. As he approached we saw that he was intoxicated, and lethargic, he couldn't harm us even if we handed him our weapons.
+
+11 AA:
+OS: He introduced himself to us, he said that he and his people were peaceful, told us to head to the centre of the village to find our men. He didn't prepare us for what we saw there however.
+
+12:
+L: What did you see?
+
+12 A:
+OS: A crowd of people, lethargic and spread across the ground like the aftermath of a battle. Some sleeping, some watching us, and some eating a strange fruit. 
+
+12 AA:
+OS: Amongst them we saw the three scouts Odysseus had sent to inspect the island, as limp and indisposed as the inhabitants.
+
+12 AB:
+OS: Amongst them we saw the four scouts Odysseus had sent to inspect the island, as limp and indisposed as the inhabitants.
+
+12 AC:
+OS: Amongst them we saw the five scouts Odysseus had sent to inspect the island, as limp and indisposed as the inhabitants.
+
+13:
+L: Wait, I thought you said there were five scouts?
+
+13 A:
+OS: Oh yes, of course.
+
+14:
+L: Were they poisoned?
+
+14 A:
+OS: In a way, it was the fruit. They didn't know who we were, they just wanted to lay there eating the fruit of the lotus, or so they called it.
+
+14 AA:
+OS: They had forgotten who they were, and where they were from. We dragged them back to the ships. They protested, but were too weak to stop us.
+
+15:
+L: What did you do once you had returned to the ships?
+
+15 A:
+OS: We told Odysseus of what we saw, and he saw the condition of the scouts. He ordered them to be imprisoned until the effects of the fruit subsided, and we set sail the very same night.
