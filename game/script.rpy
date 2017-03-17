@@ -6,10 +6,11 @@
 define os = Character("Old Soldier")
 define l = Character("Listener")
 
-
 # The game starts here.
 
 label start:
+    $ a_listener = Listener()  
+    
     #jump find_listener
     jump intro            
     return

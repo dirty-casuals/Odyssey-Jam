@@ -1,6 +1,4 @@
-label intro:
-    $ a_listener = Listener()     
-    
+label intro:        
     scene bg bar
     show listener at right
 
