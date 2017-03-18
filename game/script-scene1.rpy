@@ -2,7 +2,7 @@ image bg imarosshore = "bg/bg ithaca.png"
 
 label scene1:        
     hide listener
-    call .shipscene
+    scene bg shipscene with dissolve
     
     os "The twelve ships of Odysseus left Troy while the ashes of the city still fell."
     os "Odysseus wanted to waste no time in getting home to his beloved family and homeland of Ithaca."
@@ -12,12 +12,12 @@ label scene1:
     
     menu:
         "The winds sent us off course":
-            call .stormyscene
+            scene bg stormyscene with slideawaydown
             os "...the winds took hold of the ships, sent us far off course."
             $ a_listener.off_course_by = "winds"
 
         "The waves drove us off course":
-            call .stormyscene
+            scene bg stormyscene with slideawaydown
             os "...Poseidon had another idea. The tides were against us and we were driven off course."
             $ a_listener.off_course_by = "tides"
     
@@ -42,27 +42,5 @@ label scene1:
                 if contradiction_fail( -0.2 ): 
                     jump scene1
                 
-    jump scene2
-    
-label .stormyscene:
-    show bg stormysea with slideawaydown:
-        zoom 1.1
-        xalign 0.5 
-        yalign 0.5
-        ease 2 rotate 3
-        ease 2 rotate -3
-        alignaround (.5, .5)
-        repeat
-    return
-    
-label .shipscene:
-    show bg ship with dissolve:
-        zoom 1.1
-        xalign 0.5 
-        yalign 0.5
-        linear 5 rotate 2
-        linear 5 rotate -2
-        alignaround (.5, .5)
-        repeat
-    return
+    jump scene2    
     

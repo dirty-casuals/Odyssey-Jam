@@ -31,7 +31,25 @@ image listener2_ sweat:
     contains:
         "fx/drop.png"
     
-
+image bg shipscene:
+    "bg/bg ship.png"
+    zoom 1.1
+    xalign 0.5 
+    yalign 0.5
+    linear 5 rotate 2
+    linear 5 rotate -2
+    alignaround (.5, .5)
+    repeat
+    
+image bg stormyscene:
+    "bg/bg stormysea.png"
+    zoom 1.1
+    xalign 0.5 
+    yalign 0.5
+    ease 2 rotate 3
+    ease 2 rotate -3
+    alignaround (.5, .5)
+    repeat
 
 # The game starts here.
 
@@ -41,3 +59,5 @@ label start:
     #jump find_listener
     jump intro            
     return
+
+    
