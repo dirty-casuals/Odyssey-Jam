@@ -12,6 +12,7 @@ label scene1:
         "The winds sent us off course":
             os "...the winds took hold of the ships, sent us far off course."
             $ a_listener.off_course_by = "winds"
+
         "The waves drove us off course":
             os "...Poseidon had another idea. The tides were against us and we were driven off course."
             $ a_listener.off_course_by = "tides"
@@ -24,10 +25,15 @@ label scene1:
             if hasattr(a_listener, "off_course_by") and a_listener.off_course_by == "winds":
                 l "I thought you said it was the winds that took you off course?"
                 os "Nonsnse, I clearly remember I said \"waves\"."
+                if contradiction_fail( -0.2 ): 
+                    jump scene1
+                
         "We set for the nearest port after the winds subsided":
             os "Once the winds had subsided we laid a course for the nearest port."
             if hasattr(a_listener, "off_course_by") and a_listener.off_course_by == "tides":
                 l "I thought you said it was the tides that threw you off course?"
                 os "What? Oh, yes of course..."
+                if contradiction_fail( -0.2 ): 
+                    jump scene1
                 
     jump scene2

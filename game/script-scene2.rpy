@@ -52,6 +52,8 @@ label scene2:
             if hasattr(a_listener, "doesnt_command") and a_listener.doesnt_command:
                 l "But, didn't you say earlier you don't give orders"
                 os "Hmm, yes... I mean I \"suggested\" we should defend the ships\n and everyone agreed with me."
+                if contradiction_fail( -0.2 ): 
+                    jump scene2
                 
             jump .defend
             
@@ -60,7 +62,9 @@ label scene2:
             if hasattr(a_listener, "took_slaves") and !a_listener.took_slaves:
                 l "I thought you had no slaves?"
                 os "Oh yes... Just a slip of the tongue. I meant to say I freed as many as I could see."
-            
+                if contradiction_fail( -0.2 ): 
+                    jump scene2
+                
             os "Odysseus ordered us to defend the ships until we could leave. We were heavily out numbered, they had archers and chariots, it felt like eons passed in those moments."            
             jump .defend
             
