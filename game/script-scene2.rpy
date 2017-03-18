@@ -1,4 +1,4 @@
-label scene2:        
+label scene2:
     os "After we set sail once more we came across an island. The island of Ismaros..."
     
     l "Ismaros Island?"     
@@ -12,8 +12,8 @@ label scene2:
     os "Aye, we fought against them during the battle of Troy. Fierce warriors, but not as skilled in the art of war."    
     menu:
         "We looted the city" :
-            scene bg ismaros
-            os "They weren't expecting us, so we made light work of the city. We plundered, and took anything we wanted."
+            scene bg ismaros with pushleft  
+            os "They weren't expecting us, so we made light work of the city.{p}We plundered, and took anything we wanted."
             l "What about the people?"
             os "The men were killed where they stood, and the women were taken as slaves."
         "We killed the men" :
@@ -36,7 +36,7 @@ label scene2:
             $ a_listener.took_slaves = True
     
     l "And Odysseus?"
-    os "He was no better than the others, he took his fair share. He wanted us to leave once we had done so. We should have listened..."
+    os "He was no better than the others, he took his fair share.{p}He wanted us to leave once we had done so. We should have listened..."
     
     l "Why? Did something happen?"
     menu:
@@ -49,7 +49,7 @@ label scene2:
     menu:
         "Commanded my men to defend the ships":
             os "I stood by my men and gave them orders to defend the ships, so Odysseus could flee to safety and prepare the shipts to sail."
-            if hasattr(a_listener, "doesnt_command") and a_listener.doesnt_command:
+            if notice_contradiction() and hasattr(a_listener, "doesnt_command") and a_listener.doesnt_command:
                 l "But, didn't you say earlier you don't give orders"
                 os "Hmm, yes... I mean I \"suggested\" we should defend the ships\n and everyone agreed with me."
                 if contradiction_fail( -0.2 ): 
@@ -58,33 +58,34 @@ label scene2:
             jump .defend
             
         "I freed the slaves I had been given, told them to head for safety":
-            os "I freed the slaves I had been given, told them to head for safety. I then gathered my arms and joined my comrades and prepared to defend ourselves."
-            if hasattr(a_listener, "took_slaves") and !a_listener.took_slaves:
+            os "I freed the slaves I had been given, told them to head for safety.{p}I then gathered my arms and joined my comrades and prepared to defend ourselves."
+            if notice_contradiction() and hasattr(a_listener, "took_slaves") and not a_listener.took_slaves:
                 l "I thought you had no slaves?"
                 os "Oh yes... Just a slip of the tongue. I meant to say I freed as many as I could see."
                 if contradiction_fail( -0.2 ): 
                     jump scene2
                 
-            os "Odysseus ordered us to defend the ships until we could leave. We were heavily out numbered, they had archers and chariots, it felt like eons passed in those moments."            
+            os "Odysseus ordered us to defend the ships until we could leave.{p}We were heavily out numbered, they had archers and chariots,{p}it felt like eons passed in those moments."            
             jump .defend
             
         "Waited for Odysseus' orders":
-            os "I quickly prepared as well as I could and joined my brothers in arms ready to await Odysseus' command."
+            os "I quickly prepared as well as I could and joined my brothers in arms\n ready to await Odysseus' command."
             l "What was the order?"
             os "Defend the ships until we could retreat."
             jump .defend
             
         "I gathered my things and made for the ships.":
-            os "I gathered my things and made for the ships. There were too many for us to fight, and they had chariots and archers."
+            os "I gathered my things and made for the ships.{p}There were too many for us to fight, and they had chariots and archers."
             jump .retreat            
             
 label .defend:
     l "Did you succeed?"
     os "Well I'm sitting here now aren't I?{p}Others weren't as fortunate. They charged with the chariots."
-    os "The man next to me was impaled on a scythed wheel as it flew from a destroyed chariot. His body cushioned the blade enough that it didn't stick me too!"
+    os "The man next to me was impaled on a scythed wheel as it flew from a destroyed chariot.{p}His body cushioned the blade enough that it didn't stick me too!"
     l "How did you escape?"
-    os "Odysseus himself pulled me to my feet and got me to the ship. We managed to get all twelve ships back out to sea, despite the losses."
-    return
+    os "Odysseus himself pulled me to my feet and got me to the ship.{p}We managed to get all twelve ships back out to sea, despite the losses."    
+    l "Where did you go once you left Ismaros Island?"
+    jump scene3
     
 label .retreat:
     l "You ran away?"
@@ -93,5 +94,6 @@ label .retreat:
     os "Odysseus ordered them to defend the ships while we prepared them to sail."
     os "It was chaos, from where I stood you could see bronze and steel meet flesh. Hear the clangs and screams..."
     l "Did the ships escape?"
-    os "Aye, we managed to get all twelve ships out to sea. We lost many men though, if only we had been faster, they wouldn't have had to hold the line for so long." 
-    return
+    os "Aye, we managed to get all twelve ships out to sea.{p}We lost many men though,{p}if only we had been faster, they wouldn't have had to hold the line for so long." 
+    l "Where did you go once you left Ismaros Island?"
+    jump scene3

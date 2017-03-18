@@ -5,3 +5,6 @@ scene bg stormysea:
     linear 1.0 rotate -2
     alignaround (.5, .5)
     repeat
+    
+label scene3:
+    scene bg stormysea 

@@ -9,8 +9,8 @@ init python:
     class Listener:                
         def __init__(self):
             self.amusement = renpy.random.random()*0.25 + 0.5
-            self.gullibility = renpy.random.random()
-            self.perception = renpy.random.random()
+            self.gullibility = renpy.random.random() * 0.7
+            self.perception = renpy.random.random() * 0.5 + 0.5 
             self.thirst = renpy.random.random()*0.2 + 0.1
             self.drink = 1
             self.graphic = renpy.random.choice(['listener1','listener2','listener3','listener4']);
@@ -25,7 +25,7 @@ init python:
             
     def contradiction_fail( score ):
         global l, os, a_listener
-        a_listener.amusement += score * 10
+        a_listener.amusement += score * ( 1 - a_listener.gullibility )
         if a_listener.amusement <= 0:
             renpy.show( "listener" )
             l( "I had enough of your nonsense, old man.{p}I'm leaving." )
@@ -36,8 +36,12 @@ init python:
             l( "Hey old man, can I get you something to drink." )
             os( "I can't refuse a good [a_listener.desc] like you." )
             os( "In return let me tell you a story..." )
-            return true
-        return false
+            return True
+        return False
+        
+    def notice_contradiction() :
+        global a_listener
+        return a_listener.perception >= renpy.random.random()
 
 
 label find_listener:

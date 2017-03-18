@@ -13,10 +13,14 @@ label intro:
             os "A Trojan gave it to me.{p}I gave him something in return."
         "I cut myself shaving...":
             os "I cut myself shaving when I was in Troy."
-            
+    
+    show listener sweat
+    
     l "You were in the Trojan War? Who did you serve?"
     os "I served under Odysseus of Ithaca."
     l "Odysseus of Ithaca?! He's a legend!{p}I'm sure you must have heroic tales from the war?"
+    
+    
     
     menu:
         "Those happened after the war!":
