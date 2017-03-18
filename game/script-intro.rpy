@@ -1,6 +1,6 @@
 label intro:        
     scene bg bar
-    show listener at right
+    show listener at midright
 
     #"I tell them a story, they sip me a drink.\nIt's how it works."
 
