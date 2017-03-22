@@ -1,0 +1,230 @@
+Polyphemus the Cyclops
+
+01:
+L: Where did you go next?
+
+01 A:
+OS: We sailed through the night, through a dense and ominous fog. As dawn approached the fog began to clear we saw a land of lush forests and green fields, supplies were low so we anchored the ships and went ashore.
+
+02:
+L: What did find there?
+
+02 A:
+OS: We saw a flock of large sheep on the pasture outside a cave. As we approached the sheep we saw that the cave was full of food and drink.
+
+03:
+L: Did it belong to anyone?
+
+03 A:
+OS: The owner wasn't there. So we went inside the cave and filled our bellies with as much as we could eat.
+
+03 B:
+OS: We weren't going to wait to find out! We packed up as much as we could carry back to the ships.
+
+03 AA:
+OS: As we prepared to leave, the owner returned...
+
+04:
+L: Oh no! Who was the owner?
+
+04 A:
+OS: A cyclops by the name of Polyphemus. 
+
+05:
+L: A cyclops?! What did he do?
+
+05 A:
+OS: He introduced himself. He said he was about to eat, and that we were welcome to join him.
+
+05 AA:
+OS: He lit torches near the cave entrance, and then pulled a boulder to block the opening, our only exit was gone.
+
+06:
+L: You were trapped, but he was friendly?
+
+06 A:
+OS: Or so we thought. He must have seen that we had been eating his food, he grabbed two of the men and devoured them with a blood curdling crunch.
+
+06 B:
+OS: Or so we thought. He must have seen that we planned to steal his food, he grabbed two of the men and devoured them with a blood curdling crunch.
+
+07 1:
+L: I thought you were just planning to steal his food?
+
+07 2:
+L: I thought you had all been eating his food?
+
+07 3:
+L: The monster! What happened next?
+
+07 1A:
+OS: Oh yes, my mistake...
+
+07 3A:
+OS: He imprisoned us all in a large cage, with the intent to eat us one by one.
+
+07 3AA:
+OS: He said "I can never turn down the chance to eat man, although thief tastes bitter", we all thought this was the end... but not Odysseus
+
+08:
+L: What was Odysseus doing?
+
+08 A:
+OS: Planning.
+
+At first he thought we should kill the cyclops there and then, but realised we would be trapped inside the cave.
+
+09:
+L: Because of the boulder? So what was the plan?
+
+09 A:
+OS: Odysseus gathered all the men while the cyclops slept, and told us to try and find any weapons we could, and to try and reach the wine we had brought with us.
+
+09 AA:
+OS: One of the men managed to find a bow, and another found enough materials to craft a single arrow. We also managed to get hold of a single amphora of wine.
+
+09 AB:
+OS: One of the men managed to find a wooden staff which could be made into a spear. We also managed to get hold of a single amphora of wine. 
+
+09 AC:
+OS: We managed to get hold of a single amphora of wine, but we couldn't reach any weapons. Odysseus wasn't dishearted by this, and said the plan would still work.
+
+10:
+L: What happened next?
+
+10 A:
+OS: Odysseus told us to rest, and that he would reveal the rest of the plan to us when the beast left to tend to his flock.
+
+11: 
+L: What was the plan?!
+
+11 A:
+OS: Firstly, we crafted the weapon, and then we needed to find a way to get the cyclops to open the cage, and finally a way to get outside.
+
+11 B:
+OS: We needed to find a way to get the cyclops to open the cage, and a way outside without being eaten.
+
+12 1:
+L: So how did you get the cyclops to open the cage?
+
+12 2:
+L: Wait, I thought you couldn't find a weapon?
+
+12 3:
+L: Wait, didn't you need to craft the weapon?
+
+12 1A:
+OS: When the cyclops returned from herding his flock, Odysseus opened the wine and poured a few of the men a drink, telling them to act merry and loud to draw the beast's attention.
+
+12 2A:
+OS: Oh yes... we improvised when the time came.
+
+12 3A:
+OS: Oh yes of course, that was the first part of the escape plan.
+13:
+L: To what end?
+
+
+13 A:
+OS: Polyphemus came over to the cage to see why his prisoners were jovial, he saw the wine and wanted it for himself. Odysseus offered to share the wine with him, and said there was more hidden in the cave.
+
+13 AA:
+OS: The cyclops thought about if for a second, then he pushed the boulder back into place then smiled and agreed, he opened the cage and Odysseus gave him the wine.
+
+14:
+L: Oh no, with the exit blocked you wouldn't be able to leave?!
+
+14 A:
+OS: It was all part of the plan...
+
+14 B:
+OS: That's what I thought too, but Odysseus seemed to know it would happen.
+
+15:
+L: What happened?
+
+15 A:
+OS: Odysseus and the cyclops drank together, and they talked. Polyphemus eventually asked Odysseus his name, to which Odysseus replied "my name is Nobody"
+
+15 B:
+OS: The cyclops drank and talked with Odysseus. When he asked Odysseus for his name, he said "I am Nobody", the cyclops said he thought it a strange name for a man, but said man is a strange creature.
+
+15 AA:
+OS: Eventually the cyclops fell asleep, and Odysseus signalled for us to begin the next stage of the plan. 
+
+16:
+L: Which was?
+
+16 A:
+OS: The arrow was set it alight, and fired into the cyclops' eye. He screamed a deafening scream, I have never heard such agony from a beast.
+
+16 B:
+OS: The spear was heated until red hot, then plunged into Polyphemus' eye. He screamed a deafening scream, I have never heard such agony from a beast.
+
+16 C:
+OS: We filled a bowl with red hot coals from the fire, then poured them into the beast's eye! He screamed a deafening scream, I have never heard such agony!
+
+17 1:
+L: I thought you had a spear?
+
+17 2:
+L: I thought you had no weapon?
+
+17 3:
+L: I thought you had made an arrow?
+
+17 4:
+L: What happened next?
+
+17 1A:
+OS: Oh yes, it must have slipped my mind...
+
+17 4A:
+OS: The cyclops' screams drew his neighbours to investigate, Odysseus told us all to hide and be ready to run to the ships.
+
+17 4AA:
+OS: And so we waited for one of the other cyclopes to move the boulder...
+
+18:
+L: Did one of them do it?
+
+18 A:
+OS: No...
+
+One asked Polyphemus why he was screaming, to which he replied "Nobody is killing me!"...
+
+18 AA:
+OS: ...there was a long pause, and then the voice outside replied "Ok then" and left. We were trapped until morning.
+
+19:
+L: What happened in the morning?
+
+19 A:
+OS: At dawn the sheep became restless and wished to go out and graze. Polyphemus stumbled to his feet and moved towards the boulder. He pushed it aside then began feeling around, making sure no men passed.
+
+20:
+L: How did you escape?
+
+20 A:
+OS: Odysseus signalled for us to cling onto the bellies of the sheep so Polyphemus couldn't feel for us.
+
+21:
+L: Did it work?
+
+21 A:
+OS: Like a charm! Once we were outside we herded the sheep onto the ships and set sail. Polyphemus eventually realised he had been fooled and rushed to the beach.
+
+21 AA:
+OS: He was too late, we were already out at sea when he arrived. The cyclops shouted "curse you Nobody!"
+
+22:
+L: So you got away unpunished?
+
+22 A:
+OS: Not quite. Odysseus' vanity got the better of him. He shouted at the cyclops "You have been bested by Odysseus of Ithaca, you foolish wretch!". The cyclops fell to his knees in prayer.
+
+23:
+L: He was praying? To who?
+
+23 A:
+OS: His father... Poseidon. 
