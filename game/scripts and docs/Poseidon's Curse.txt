@@ -1,0 +1,107 @@
+Poseidon's Curse
+
+01:
+L: What happened after you left the land of the cyclopes?
+
+01 A:
+OS: We were caught in a great storm, it blew us off course, further out to sea. We became lost.
+
+02:
+L: Lost? Surely you had navigators? Couldn't they use the stars to guide you?
+
+02 A:
+OS: I'm sure they could have had we seen any stars. The storm lasted days. We were at the mercy of the sea.
+
+03:
+L: Did the storms ease?
+
+03 A:
+OS: Aye, after a few days the tides died down and the wind stopped... we were dead in the water.
+
+03 B: 
+OS: Too much so! We were stuck in the doldrums.
+
+04 1:
+L: What did you do?
+
+04 2:
+L: The doldrums?
+
+04 1A:
+OS: Odysseus called a meeting of all the ships captains to discuss how we would escape.
+
+04 2A:
+OS: It's a nautical term, it means there was no wind to blow the sails, not tide to push the ship. We were floating island of wood.
+
+05:
+L: Did you go?
+
+05 A:
+OS: Me? No, I wasn't a captain. I stayed on the ship and waited to hear what was going on.
+
+05 B:
+OS: Aye, I rowed the boat for Odysseus to take him to the meeting in the most central ship. 
+
+06 1:
+L: So what happened in the meeting?
+
+06 2:
+L: What happened in the meeting?
+
+06 1A:
+OS: I don't know exactly, because I wasn't there. 
+
+06 2A:
+OS: The ship captains discussed with Odysseus our options on how to escape our situation.
+
+07 1:
+L: What was decided?
+
+07 2:
+L: What were the options?
+
+07 1A:
+OS: Odysseus came back to the ship, he said we would row the ships until we found a wind. Then men weren't pleased but understood that it was the only way home.
+
+07 2A:
+OS: One captain suggested we wait, surely the clouds would clear and we could navigate again, at least enough for us to see the sun.
+
+07 2B:
+OS: One captain suggested we row the ships until we found a wind or tide once more. He said we were wasting provisions by not doing anything.
+
+08:
+L: Did you agree?
+
+08 A:
+OS: Wasn't my place to agree or disagree, I was there to row Odysessus' boat, nothing more.
+
+09:
+L: What did Odysseus think?
+
+09 A:
+OS: He agreed that we should wait, a wind would come eventually, and we still had the cyclops' sheep, so food wasn't a problem.
+
+09 B:
+OS: He agreed that we were wasting resources by staying, we should row the ships until we find a tide.
+
+10 1:
+L: That's not the plan you said?
+
+10 2:
+L: So it was settled then?
+
+10 3:
+L: That is a different plan?
+
+10 1A:
+OS: Oh sorry, I missed have missed that piece of the story.
+
+10 2A:
+OS: Aye, each captain went back to the ship to inform their men. I rowed Odysseus back to our ship, so he could do the same.
+
+11:
+L: What happened? Did the plan work?
+
+11 A:
+OS: Three days later the wind picked up, and we saw a shimmer in the distance. At that distance we had no idea what it was, as we drew nearer it seemed to be land, but in the sky...
+
