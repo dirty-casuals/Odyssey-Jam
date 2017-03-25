@@ -1,0 +1,89 @@
+Aeolus Ruler of the Winds
+
+01:
+L: Land in the sky?
+
+01 A:
+OS: Aye, as we drew nearer it became clearer. They were islands floating in the sky.
+
+02:
+L: Was there anything on the islands?
+
+02 A:
+OS: They were the home of Aeolus, the ruler of the winds.
+
+03:
+L: How did you get on to the islands if they were in the sky?
+
+03 A:
+OS: With great difficulty! We used ropes to climb up to the island closest to the sea, and then we created a series of bridges and ladders between the islands.
+
+04:
+L: What was at the top?
+
+04 A:
+OS: A beautiful tree with golden leaves, the wind seemed to dance around it.
+
+04 B:
+OS: A magnificent palace made of crystal, it glistened in the sun like the ocean at sunset.
+
+05 1:
+L: Where was Aeolus?
+
+05 2:
+L: Was Aeolus inside?
+
+05 1A:
+OS: He sat at the base of the tree with his mind deep in thought. Once he noticed we were there he looked pleased.
+
+05 2A:
+OS: Aye, he sat on a throne that reached into the heavens, he seemed annoyed by our presence.
+
+06:
+L: What happened next?
+
+06 A:
+OS: He stood up, introduced himself, then greeted each man individually.
+
+06 B:
+OS: Aeolus demanded we introduce ourselves and explain our intrusion into his domain.
+
+07 1:
+L: That doesn't sound right, you said he seemed annoyed that you were there?
+
+07 2: 
+L: What did he do next?
+
+07 3:
+L: Wait, I thought you said he was pleased when he saw you?
+
+07 1A:
+OS: Oh yes of course, my mistake... he demanded we introduce ourselves and explain our intrusion into his domain.
+
+07 2A:
+OS: He wished to speak to our leader, Odysseus stepped forward, and then they left together.
+
+07 3A:
+OS: Oh yes, what I meant to say was...
+He stood up, introduced himself, then greeted each man individually.
+
+08:
+L: Where did they go?
+
+08 A:
+OS: I don't know, one minute they were there and the next they were not.
+
+09:
+L: Did Odysseus return?
+
+09 A:
+OS: Of course, they both did. Odyssesus was clutching a leather bag tightly. Aeolus gave us a westerly wind, and used his power to lift us all back to the ships.
+
+09 AA:
+OS: He said that if we would be home in Ithaca within ten days.
+
+10:
+L: Were you?
+
+10 A:
+OS: Not exactly...
