@@ -1,0 +1,68 @@
+Treachery on the High Seas
+
+01:
+L: What happened?
+
+01 A:
+OS: Everything went well for the first few days, the winds were good and the sails strong, but soon some of the men started to voice their doubts.
+
+02:
+L: Doubts? What did the men have doubts about?
+
+02 A:
+OS: Odysseus. Some of the men thought that the bag he received from Aeolus contained treasures that he was keeping for himself. 
+
+03:
+L: Did you agree?
+
+03 A:
+OS: No, Odysseus wouldn't keep something from us unless he had to.
+
+03 B:
+OS: Aye, regretfully greed got the better of me. The way he always held the bag so tightly made me believe it must contain something truly precious.
+
+04 1:
+L: Did they open the bag?
+
+04 2:
+L: Did you open the bag?
+
+04 1A:
+OS: Not at first, there was a lot of talk amongst the men as to when it should be done, it was undecided until Ithaca came into view.
+
+05:
+L: What happened once Ithaca was in sight?
+
+05 A:
+OS: The men who wanted to open the bag became mad with greed, they tor the bag from Odysseus.
+
+05 B:
+OS: We thought this was our last chance, that once we reached Ithaca Odysseus would have all the riches for himself. so we took the bag.
+
+06 1:
+L: I thought  you wanted to open the bag too?
+
+06 2:
+L: What was inside the bag?
+
+06 3:
+L: I thought you didn't want to open the bag?
+
+06 2A:
+OS: Inside the bag were all the winds except the western wind. Aeolus had given them to Odysseus so they wouldn't be bale to blow us off course.
+
+07:
+L: What happened once the bag had been opened?
+
+07 A:
+OS: We were blown all the way back to floating islands of Aeolus. Our journey would have ended had it not been for greed.
+
+08:
+L: What happened next?
+
+08 A:
+OS: Odysseus went back to Aeolus for help, and despite Odysseus' pleas Aeolus wouldn't help us. He said the gods had cursed Odysseus and there was nothing he could do.
+
+08 AA:
+OS: We were then pushed away from Aeolus' islands by a strong wind which soon died. We were forced to row our way to the next land we saw to gather supplies.
+
