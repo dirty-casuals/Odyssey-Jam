@@ -1,5 +1,6 @@
 label scene5:
     scene bg stormyscene:
+    play music disturbance
     os "We were caught in a great storm, it blew us off course, further out to sea. We became lost."
     l "Lost? Surely you had navigators? Couldn't they use the stars to guide you?"
     os "I'm sure they could have had we seen any stars. The storm lasted days. We were at the mercy of the sea."
@@ -7,14 +8,19 @@ label scene5:
     
     menu:
         "Aye, after a few days the wind stopped":
-            os "Aye, after a few days the tides died down and the wind stopped... we were dead in the water."            
             show bg ship with dissolve
+            stop music fadeout 2
+            os "Aye, after a few days the tides died down and the wind stopped...\nBut they never picked up."
+            os "We stood and waited"
         "We got stuck in the doldrums.":
             os "Too much so! We were stuck in the doldrums."
             l "The doldrums?"
             show bg ship with dissolve
+            stop music fadeout 2
             os "It's a nautical term, it means there was no wind to blow the sails,\n not tide to push the ship. We were floating island of wood."
             
+    play music spooky fadein 4
+    os "It felt like an age had passed.\nWe were dead in the water."
     l "What did you do?"
     os "Odysseus called a meeting of all the ships captains to discuss how we would escape."
     l "Did you go?"
@@ -69,5 +75,6 @@ label scene5:
 label .after_plan:
     
     l "What happened? Did the plan work?"
+    stop music fadeout 3
     os "Aye, three days later the wind picked up."    
     jump scene6

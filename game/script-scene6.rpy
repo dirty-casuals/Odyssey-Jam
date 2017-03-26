@@ -1,6 +1,6 @@
 label scene6:    
     scene bg shipscene
-    
+    play music calm fadein 2
     os "We were moving forth at sea as we saw a shimmer in the distance."
     os "We had no idea what it was, as we drew nearer it seemed to be land,{p}but in the sky..."
     show bg aeolia with pixellate
@@ -13,9 +13,12 @@ label scene6:
     l "What was at the top?"        
     menu:
         "A palace made of crystal":
-            os "A magnificent palace made of crystal, it glistened in the sun like the ocean at sunset."
-            l "Was Aeolus inside?"
-            os "Aye, he sat on a throne that reached into the heavens, he seemed annoyed by our presence."
+            os "A magnificent palace made of crystal, it glistened in the sun like the ocean at sunset."            
+            stop music fadeout 2
+            l "Was Aeolus inside?"            
+            os "Aye, he sat on a throne that reached into the heavens"
+            play music dilema fadein 3
+            os "He seemed annoyed by our presence."            
             $ a_listener.aeolus_pleased = False
         "A tree with golden leaves":
             os "A beautiful tree with golden leaves, the wind seemed to dance around it."
@@ -43,6 +46,7 @@ label scene6:
                     
     l "What did he do next?"
     os "He wished to speak to our leader, Odysseus stepped forward, and then they left together."
+    stop music fadeout 1
     l "Where did they go?"
     os "I don't know, one minute they were there and the next they were not."
     l "Did Odysseus return?"

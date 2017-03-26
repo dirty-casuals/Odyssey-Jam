@@ -1,5 +1,6 @@
 label intro:        
-    scene bg bar    
+    scene bg bar
+    play music calm
 
     "An old soldier with a tired look on his face sits alone at a bar."
     show oldsoldier at midleft

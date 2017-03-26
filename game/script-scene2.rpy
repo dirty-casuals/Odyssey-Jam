@@ -1,4 +1,6 @@
-label scene2:
+label scene2:    
+    play music coast
+    scene bg imarosshore
     os "After we set sail once more we came across an island. The island of Ismaros..."
     
     l "Ismaros Island?"     
@@ -9,6 +11,7 @@ label scene2:
             os "Yes. We did not know at the time, but it was home to the Cicones, an enemy of Greece."
     
     l "The Cicones?"
+    play music buildup
     os "Aye, we fought against them during the battle of Troy. Fierce warriors, but not as skilled in the art of war."    
     menu:
         "We looted the city" :
@@ -41,8 +44,10 @@ label scene2:
     l "Why? Did something happen?"
     menu:
         "Someone warned the inland tribes.":
+            play music combat
             os "One of the men must have survived, or one of the slaves escaped. They went inland, gathered an army to chase us away."
         "We drank too much and fell asleep.":
+            play music combat
             os "We all drank and made merry, until we fell asleep. I was awoken by the horns of war, Cicone reinforcements were on their way!"
             
     l "What did you do?"
@@ -80,6 +85,7 @@ label scene2:
             
 label .defend:
     l "Did you succeed?"
+    stop music
     os "Well I'm sitting here now aren't I?{p}Others weren't as fortunate. They charged with the chariots."
     os "The man next to me was impaled on a scythed wheel as it flew from a destroyed chariot.{p}His body cushioned the blade enough that it didn't stick me too!"
     l "How did you escape?"
@@ -89,6 +95,7 @@ label .defend:
     
 label .retreat:
     l "You ran away?"
+    stop music
     os "It was more of a tactical retreat..."
     l "What about the others?"
     os "Odysseus ordered them to defend the ships while we prepared them to sail."

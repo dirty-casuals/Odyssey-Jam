@@ -1,4 +1,5 @@
 label scene3:
+    play music coast
     scene bg shipscene with dissolve
     os "We drifted at sea for nine days,{p}we treated the wounded,{p}fixed any damage to the ships."
     scene bg djerba with pushright
@@ -15,7 +16,8 @@ label scene3:
             l "And did it?"
             os "We anchored off the coast, Odysseus didn't want a repeat of our last time on land.{p}He sent five men ashore to the island to see if it was safe to make port."
             
-    l "What did they find?"    
+    l "What did they find?"
+    play music spooky fadein 0.4
     
     if renpy.random.random() < 0.5:
         os "Nothing. The scouts didn't return, and no one came looking for us. It was a mystery."
@@ -45,6 +47,10 @@ label scene3:
             l "What did he do?"
             os "He smiled."
             os "He stumbled to his feet and slowly walked over to us. We acted casually while tightening our hold on our swords, ready for the worst."
+            stop music fadeout 0.2
+            l "Did you kill him?"
+            os "No, far from it. As he approached we saw that he was intoxicated, and lethargic, he couldn't harm us even if we handed him our weapons."
+            os "He introduced himself to us, he said that he and his people were peaceful, told us to head to the centre of the village to find our men. He didn't prepare us for what we saw there however."
         "Signs of life":
             os "We found signs of life, a primitive settlement. We feared the worst."
             l "Why? What did you think had happened?"
@@ -53,23 +59,20 @@ label scene3:
             os "We circled the camp, tried to see if we could spot our men, or the barbarians."
             l "Did you?"
             os "Not at first, but when we started to move towards the centre of the village we saw them."
+            l "What did you see?"
+            stop music fadeout 0.2
+            os "A crowd of people, lethargic and spread across the ground like the aftermath of a battle. Some sleeping, some watching us, and some eating a strange fruit."            
     
-    l "Did you kill him?"
-    os "No, far from it. As he approached we saw that he was intoxicated, and lethargic, he couldn't harm us even if we handed him our weapons."
-    os "He introduced himself to us, he said that he and his people were peaceful, told us to head to the centre of the village to find our men. He didn't prepare us for what we saw there however."
-    
-    l "What did you see?"
-    os "A crowd of people, lethargic and spread across the ground like the aftermath of a battle. Some sleeping, some watching us, and some eating a strange fruit."
-    
+    os "Amongst them we saw the men Odysseus sent to inspect the island."
     menu:
         "Three scouts":
-            os "Amongst them we saw the three scouts Odysseus had sent to inspect the island, as limp and indisposed as the inhabitants."
+            os "The three scouts were as limp and indisposed as the inhabitants."
             jump .wrongnumber
         "Four scouts":
-            os "Amongst them we saw the four scouts Odysseus had sent to inspect the island, as limp and indisposed as the inhabitants."
+            os "The four scouts were as limp and indisposed as the inhabitants."
             jump .wrongnumber
         "Five scouts":
-            os "Amongst them we saw the five scouts Odysseus had sent to inspect the island, as limp and indisposed as the inhabitants."
+            os os "The five scouts were as limp and indisposed as the inhabitants."
             jump .rightnumber
             
 label .wrongnumber:
@@ -81,10 +84,11 @@ label .wrongnumber:
     jump .rightnumber
 
 label .rightnumber:
+    play music spooky fadein 0.4
     l "Were they poisoned?"
     os "In a way, it was the fruit. They didn't know who we were, they just wanted to lay there eating the fruit of the lotus, or so they called it."
     os "They had forgotten who they were, and where they were from. We dragged them back to the ships. They protested, but were too weak to stop us."
     l "What did you do once you had returned to the ships?"
-    os "We told Odysseus of what we saw, and he saw the condition of the scouts. He ordered them to be imprisoned until the effects of the fruit subsided, and we set sail the very same night."
+    os "We told Odysseus of what we saw, and he saw the condition of the scouts. He ordered them to be imprisoned until the effects of the fruit subsided, and we set sail the very same night."    
     l "Where did you go next?"
     jump scene4

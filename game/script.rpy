@@ -1,5 +1,4 @@
 # The script of the game goes in this file.
-
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
@@ -23,6 +22,17 @@ define fogfadeout = Dissolve(4.0)
 image cyclopsA = "char/cyclops.png"
 image cyclopsB = "char/cyclops.png"
 image oldsoldier = "char/speaker1.png"
+
+define audio.calm = "music/seaside.ogg"
+define audio.disturbance = "music/forth-to-adventure.ogg" 
+define audio.dilema = "music/creepy-wahwah.ogg"
+define audio.coast = "music/village-on-the-coast.ogg"
+define audio.buildup = "music/march-unto-war.ogg"
+define audio.combat = "music/march-unto-war-part2.ogg"
+define audio.spooky = "music/creepy-ghost.ogg"
+define audio.crucial = "music/slow-vampire.ogg"
+define audio.badturn = "music/church-chorus.ogg"
+define audio.shady = "music/somber-night.ogg"
     
 image bg shipscene:
     "bg/bg ship.png"
@@ -49,9 +59,8 @@ image bg stormyscene:
 label start:
     $ a_listener = Listener()
     
+   
     jump intro
     #jump find_listener
     #jump outro
     return
-
-    

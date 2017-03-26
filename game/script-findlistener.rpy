@@ -45,7 +45,8 @@ init python:
 
 label find_listener:
     scene bg bar    
-    os "Here I stand alone at the bar.{p}I'd better find someone to share my story and their with."
+    stop music fadeout 2
+    os "Here I stand alone at the bar.{p}I'd better find someone to talk to."
     jump .display    
         
 label .display:

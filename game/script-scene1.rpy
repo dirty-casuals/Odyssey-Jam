@@ -8,15 +8,18 @@ label scene1:
     os "Odysseus wanted to waste no time in getting home to his beloved family and homeland of Ithaca."
     
     l "You were heading for Ithaca?"
-    os "Ay that was the plan, but..."
+    os "Ay that was the plan, but..."    
+    stop music fadeout 0.5
     
     menu:
         "The winds sent us off course":
-            scene bg stormyscene with slideawaydown
+            play music disturbance
+            scene bg stormyscene with slideawaydown            
             os "...the winds took hold of the ships, sent us far off course."
             $ a_listener.off_course_by = "winds"
 
         "The waves drove us off course":
+            play music disturbance
             scene bg stormyscene with slideawaydown
             os "...Poseidon had another idea. The tides were against us and we were driven off course."
             $ a_listener.off_course_by = "tides"
@@ -25,21 +28,25 @@ label scene1:
     
     menu:
         "When the waves calmed, we set for an island":
+            stop music fadeout 1.0
             scene bg imarosshore with pixellate
-            os "Once the waves had calmed we set a course for the nearest island."
+            os "Once the waves had calmed we set a course for the nearest island."            
             if notice_contradiction() and hasattr(a_listener, "off_course_by") and a_listener.off_course_by == "winds":
                 l "I thought you said it was the winds that took you off course?"
                 os "Nonsnse, I clearly remember I said \"waves\"."
                 if contradiction_fail( -0.2 ): 
+                    play music calm
                     jump scene1
                 
         "We set for the nearest port after the winds subsided":
+            stop music fadeout 1.0
             scene bg imarosshore with pixellate
             os "Once the winds had subsided we laid a course for the nearest port."
             if notice_contradiction() and hasattr(a_listener, "off_course_by") and a_listener.off_course_by == "tides":
                 l "I thought you said it was the tides that threw you off course?"
                 os "What? Oh, yes of course..."
                 if contradiction_fail( -0.2 ): 
+                    play music calm
                     jump scene1
                 
     jump scene2    

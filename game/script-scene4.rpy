@@ -1,32 +1,40 @@
 label scene4:
     scene bg cave fog with fogfadein
+    stop music fadeout 3
     os "We sailed through the night, through a dense and ominous fog.{p}As dawn approached the fog began to clear..."
     show bg cave with fogfadeout
+    play music calm fadein 1.0
     os "we saw a land of lush forests and green fields, supplies were low so we anchored the ships and went ashore."
-    l "What did you find there?"
+    l "What did you find there?"    
     os "We saw a flock of large sheep on the pasture outside a cave.{p}As we approached the sheep we saw that the cave was full of food and drink."
-    
+        
     l "Did it belong to anyone? Did you go in?"
     menu:
         "We went in and had a feast":
             $ a_listener.steal_food = False
             os "The owner wasn't there. So we went inside the cave and filled our bellies with as much as we could eat."
+            stop music fadeout 3
             os "We left nothing behind us."            
         "We took the food to the ships":
             $ a_listener.steal_food = True
             os "We weren't going to wait to find out! We packed up as much as we could carry back to the ships."
+            stop music fadeout 3
             os "All the food was soon in bags and crates."            
-            
+    
+    play music disturbance
     os "As we prepared to leave, the owner returned..."
     l "Oh no! Who was the owner?"
     show cyclops
     os "A cyclops by the name of Polyphemus."
-    
+        
     l "A cyclops?! What did he do?"
+    stop music fadeout 0.6
     os "He introduced himself. He said he was about to eat, and that we were welcome to join him."        
     os "He lit torches near the cave entrance, and then pulled a boulder to block the opening, our only exit was gone."
     l "You were trapped, but he was friendly?"
-    os "Or so we thought...{p}The very next moment he was filled to the brim with fury."
+    os "Or so we thought..."
+    play music badturn fadein 1
+    os "The very next moment he was filled to the brim with fury."
     
     menu:
         "...because we ate all of his food":
@@ -46,10 +54,13 @@ label scene4:
                     jump scene4
     
     os "He took away our weapons and imprisoned us all in a large cage, with the intent to eat us one by one."
-    os "He said \"I can never turn down the chance to eat man, although thief tastes bitter\",{p}we all thought this was the end... but not Odysseus"
+    os "He said \"I can never turn down the chance to eat man, although thief tastes bitter\"we all thought this was the end..."    
     hide cyclops
+    stop music fadeout 2
+    os "...but not Odysseus"
     l "What was Odysseus doing?"
-    os "Planning."
+    play music crucial
+    os "Planning."    
     os "At first he thought we should kill the cyclops there and then, but realised we would be trapped inside the cave."
     l "Because of the boulder? So what was the plan?"
     os "Odysseus gathered all the men while the cyclops slept, and told us to try and find any weapons we could, and to try and reach the wine we had brought with us."
@@ -104,8 +115,10 @@ label scene4:
         "It was all part of the plan...":
             os "It was all part of the plan..."
             l "What happened?"
+            stop music fadeout 4.0
             os "Odysseus and the cyclops drank together, and they talked. Polyphemus eventually asked Odysseus his name, to which Odysseus replied \"my name is Nobody\""
         "I had no idea what was going on":
+            stop music
             os "That's what I thought too, but Odysseus seemed to know it would happen."
             l "What happened?"
             os "The cyclops drank and talked with Odysseus. When he asked Odysseus for his name, he said \"I am Nobody\", the cyclops said he thought it a strange name for a man, but said man is a strange creature."
@@ -115,6 +128,7 @@ label scene4:
     l "Which was?"
     menu:
         "Shoot the arrow into the cyclops eye.":
+            play music combat
             os "The arrow was set it alight, and fired into the cyclops' eye. He screamed a deafening scream, I have never heard such agony from a beast."
             if notice_contradiction() and hasattr(a_listener, "cave_weapon"):
                 if not a_listener.cave_weapon == "Bow":
@@ -125,6 +139,7 @@ label scene4:
                     os "Anyway..."
                         
         "Use the spear to blind the cyclops.":
+            play music combat
             os "The spear was heated until red hot, then plunged into Polyphemus' eye. He screamed a deafening scream, I have never heard such agony from a beast."
             if notice_contradiction() and hasattr(a_listener, "cave_weapon"):
                 if not a_listener.cave_weapon == "Spear":
@@ -135,6 +150,7 @@ label scene4:
                     os "Anyway..."
                         
         "Improvise a weapon.":
+            play music combat
             os "Since we had no weapons at the time we filled a bowl with red hot coals from the fire, then poured them into the beast's eye! He screamed a deafening scream, I have never heard such agony!"
             if notice_contradiction() and hasattr(a_listener, "cave_weapon"):
                 if not a_listener.cave_weapon == "None":
@@ -152,21 +168,26 @@ label scene4:
     show cyclopsB at midright
     os "Odysseus told us all to hide and be ready to run to the ships."
     os "And so we waited for one of the other cyclopes to move the boulder..."    
-    l "Did one of them do it?"    
+    l "Did one of them do it?"
+    stop music fadeout 0.3
     os "No...{p}One asked Polyphemus why he was screaming, to which he replied \"Nobody is killing me!\"..."
     os "...there was a long pause, and then the voice outside replied \"Ok then\" and left."
     hide cyclopsA 
     hide cyclopsB
     os "We were trapped until morning."    
-    l "What happened in the morning?"
+    l "What happened in the morning?"    
     os "At dawn the sheep became restless and wished to go out and graze.\nPolyphemus stumbled to his feet and moved towards the boulder.\nHe pushed it aside then began feeling around, making sure no men passed."
     l "How did you escape?"
+    play music buildup
     os "Odysseus signalled for us to cling onto the bellies of the sheep so Polyphemus couldn't feel for us."
     l "Did it work?"
-    os "Like a charm! Once we were outside we herded the sheep onto the ships and set sail. Polyphemus eventually realised he had been fooled and rushed to the beach."
+    os "Like a charm! Once we were outside we herded the sheep onto the ships and set sail."     
+    os "Polyphemus eventually realised he had been fooled and rushed to the beach."
     os "He was too late, we were already out at sea when he arrived. The cyclops shouted \"curse you Nobody!\""
+    stop music fadeout 3
     l "So you got away unpunished?"    
-    os "Not quite. Odysseus' vanity got the better of him. He shouted at the cyclops \"You have been bested by Odysseus of Ithaca, you foolish wretch!\". The cyclops fell to his knees in prayer."
+    os "Not quite." 
+    os "Odysseus' vanity got the better of him. He shouted at the cyclops \"You have been bested by Odysseus of Ithaca, you foolish wretch!\". The cyclops fell to his knees in prayer."
     l "He was praying? To who?"
     os "His father... Poseidon."
     l "What happened after you left the land of the cyclopes?"
