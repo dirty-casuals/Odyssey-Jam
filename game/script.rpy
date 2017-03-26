@@ -18,19 +18,10 @@ transform dropdown:
     ypos 0
     linear 10 ypos 100
 
-
-image listener1_ sweat:
-    contains:
-        "char/listener1.png"
-    contains:
-        "fx/drop.png"
-
-image listener2_ sweat:
-    contains:
-        "char/listener2.png"
-    contains:
-        "fx/drop.png"
-        
+define fogfadein = Dissolve(2.0)
+define fogfadeout = Dissolve(4.0)
+image cyclopsA = "char/cyclops.png"
+image cyclopsB = "char/cyclops.png"
 image oldsoldier = "char/speaker1.png"
     
 image bg shipscene:

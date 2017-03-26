@@ -1,8 +1,3 @@
-define fogfadein = Dissolve(2.0)
-define fogfadeout = Dissolve(4.0)
-image cyclopsA = "char/cyclops.png"
-image cyclopsB = "char/cyclops.png"
-
 label scene4:
     scene bg cave fog with fogfadein
     os "We sailed through the night, through a dense and ominous fog.{p}As dawn approached the fog began to clear..."

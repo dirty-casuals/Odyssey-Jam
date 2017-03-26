@@ -40,7 +40,7 @@ label scene7:
     l "What was inside the bag?"
     os "Inside the bag were all the winds except the western wind. Aeolus had given them to Odysseus so they wouldn't be bale to blow us off course."
     l "What happened once the bag had been opened?"
-    image bg stormyscene:
+    show bg stormyscene:
     os "A storm was unleashed. It threw our ships back and forth."    
     os "We were blown all the way..."
     show bg aeolia with pixellate
