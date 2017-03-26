@@ -94,4 +94,5 @@ label .rightnumber:
     os "They had forgotten who they were, and where they were from. We dragged them back to the ships. They protested, but were too weak to stop us."
     l "What did you do once you had returned to the ships?"
     os "We told Odysseus of what we saw, and he saw the condition of the scouts. He ordered them to be imprisoned until the effects of the fruit subsided, and we set sail the very same night."
-    return
+    l "Where did you go next?"
+    jump scene4

@@ -56,8 +56,9 @@ image bg stormyscene:
 label start:
     $ a_listener = Listener()
     
+    jump intro
     #jump find_listener
-    jump intro            
+    #jump scene4            
     return
 
     
