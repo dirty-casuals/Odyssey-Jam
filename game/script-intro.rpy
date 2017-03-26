@@ -1,11 +1,15 @@
 label intro:        
-    scene bg bar
+    scene bg bar    
+
+    "An old soldier with a tired look on his face sits alone at a bar."
+    show oldsoldier at midleft
+    "That soldier is me,{w} hoping to find someone with whom I could share my story{p}and their drink."
+
+    "A [a_listener.desc] approached"
     show listener at midright
-
-    #"I tell them a story, they sip me a drink.\nIt's how it works."
-
-    l "Woah friend, that is a serious looking scar you have there.{p}How did you get it?"
+    l "Woah friend, that is a serious looking scar you have there."            
     
+    l "How did you get it?"    
     menu: 
         "I got it during the war.":
             os "I got it during the Trojan War."

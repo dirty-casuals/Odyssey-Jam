@@ -28,7 +28,7 @@ init python:
         a_listener.amusement += score * ( 1 - a_listener.gullibility )
         if a_listener.amusement <= 0:
             renpy.show( "listener" )
-            l( "I had enough of your nonsense, old man.{p}I'm leaving." )
+            l( "I had enough of your nonsense, old man.{p}This story is full of lies.I'm leaving." )
             renpy.hide( "listener" )
             renpy.say( "", "...and so the [a_listener.desc] left" )
             renpy.call( "find_listener" )
@@ -43,7 +43,6 @@ init python:
         global a_listener
         return a_listener.perception >= renpy.random.random()
 
-
 label find_listener:
     scene bg bar    
     os "Here I stand alone at the bar.{p}I'd better find someone to share my story and their with."
@@ -54,22 +53,27 @@ label .display:
     $ dance_chance = renpy.random.random()    
     menu:        
         "sing":
-            show old man sing
+            show oldsoldier sing
             $ display = "singing"
-            if 0.3 > sing_chance:                
+            if 0.5 > sing_chance:                
                 jump .found_listener
         "dance":
-            show old man dance
+            show oldsoldier dance
             $ display = "dancing"
-            if 0.3 > dance_chance:                
+            if 0.5 > dance_chance:                
                 jump .found_listener
-        
+        "perform":
+            show oldsoldier sing
+            $ display = "performing"
+            if 0.5 > sing_chance:                
+                jump .found_listener
+                
     os "All that [display] was for naught.{p}I have to try harder."
     jump .display
                 
 label .found_listener:
     $ a_listener = Listener()
     "Seems like a [a_listener.desc] got attracted by my [display]."
-    hide old man
+    hide oldsoldier
     return    
     

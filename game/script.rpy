@@ -30,6 +30,8 @@ image listener2_ sweat:
         "char/listener2.png"
     contains:
         "fx/drop.png"
+        
+image oldsoldier = "char/speaker1.png"
     
 image bg shipscene:
     "bg/bg ship.png"
@@ -58,7 +60,7 @@ label start:
     
     jump intro
     #jump find_listener
-    #jump scene4            
+    #jump outro
     return
 
     

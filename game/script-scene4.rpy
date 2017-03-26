@@ -174,3 +174,5 @@ label scene4:
     os "Not quite. Odysseus' vanity got the better of him. He shouted at the cyclops \"You have been bested by Odysseus of Ithaca, you foolish wretch!\". The cyclops fell to his knees in prayer."
     l "He was praying? To who?"
     os "His father... Poseidon."
+    l "What happened after you left the land of the cyclopes?"
+    jump scene5
